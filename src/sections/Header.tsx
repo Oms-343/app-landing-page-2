@@ -5,7 +5,7 @@ import MenuIcon from "@/public/Menu.svg";
 export default function Header() {
   return (
     <header className="sticky top-0 z-20 py-4">
-      <div className="container flex items-center justify-between">
+      <div className="container flex items-center justify-between font-medium text-[#36485C]">
         <div className="flex items-center">
           <LogoIcon className="h-10 w-10" />
 
@@ -18,11 +18,11 @@ export default function Header() {
         </div>
 
         <div className="flex items-center gap-5 desktop:gap-14">
-          <p className="hidden desktop:block">Open an Account</p>
-          <p className="flex items-center gap-1">
+          <button className="hidden desktop:block">Open an Account</button>
+          <button className="flex items-center gap-1">
             <UserIcon className="h-8 w-8" />
             <span className="hidden desktop:inline">Sign in</span>
-          </p>
+          </button>
           <button>
             <MenuIcon className="h-8 w-8 desktop:hidden" />
           </button>
