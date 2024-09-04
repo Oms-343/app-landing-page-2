@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <>
       <Header />
-      <section className="py-4 desktop:py-11">
+      <section className="overflow-x-clip py-4 desktop:py-11">
         <div className="container">
           <div className="d mx-auto max-w-[840px]">
             <h1 className="text-center text-3xl font-medium text-[#172026] desktop:text-6xl desktop:font-semibold">

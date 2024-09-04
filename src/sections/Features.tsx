@@ -9,7 +9,7 @@ import PinkButton from "@/public/pink-button.svg";
 
 export default function Features() {
   return (
-    <section className="container flex flex-col gap-y-[56px] py-[56px] desktop:gap-y-[80px] desktop:py-[120px]">
+    <div className="container flex flex-col gap-y-[56px] py-[56px] desktop:gap-y-[80px] desktop:py-[120px]">
       <div className="flex flex-col gap-x-6 mobile:flex-row-reverse">
         <Image
           src={Feature1}
@@ -56,7 +56,7 @@ export default function Features() {
           </ul>
 
           <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#0085FF] desktop:text-[18px]">
-            Learn More{" "}
+            Learn More
             <span>
               <BlueButton />
             </span>
@@ -161,6 +161,6 @@ export default function Features() {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
