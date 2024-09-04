@@ -4,7 +4,7 @@ import MenuIcon from "@/public/Menu.svg";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-20 py-4">
+    <header className="sticky top-0 z-20 py-4 backdrop-blur">
       <div className="container flex items-center justify-between font-medium text-[#36485C]">
         <div className="flex items-center">
           <LogoIcon className="h-10 w-10" />
