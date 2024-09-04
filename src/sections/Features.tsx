@@ -64,7 +64,6 @@ export default function Features() {
         </div>
       </div>
 
-      {/**2 */}
       <div className="flex flex-col gap-x-6 desktop:-mr-12 desktop:flex-row">
         <Image
           src={Feature2}
@@ -113,7 +112,7 @@ export default function Features() {
           <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#00A424] desktop:text-[18px]">
             Learn More
             <span>
-              <BlueButton />
+              <GreenButton />
             </span>
           </p>
         </div>
@@ -167,7 +166,7 @@ export default function Features() {
           <p className="flex items-center gap-x-2 pt-[24px] font-medium text-[#EB2891] desktop:text-[18px]">
             Learn More
             <span>
-              <BlueButton />
+              <PinkButton />
             </span>
           </p>
         </div>

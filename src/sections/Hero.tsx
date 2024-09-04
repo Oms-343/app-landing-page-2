@@ -35,14 +35,14 @@ export default function Hero() {
             </button>
           </div>
         </div>
-        <div className="">
+        <div className="bg-gradient-to-t from-amber-500 from-10% via-pink-500 via-30% to-white to-90% desktop:to-60%">
           <div className="">
             <Image
               src={heroImage}
               alt="hero-image"
               className="-ml-4 desktop:-ml-0"
             />
-            <div className="bg-black">
+            <div className="">
               <p className="mb-5 text-center text-white desktop:-mt-24">
                 Trusted by these companies
               </p>
