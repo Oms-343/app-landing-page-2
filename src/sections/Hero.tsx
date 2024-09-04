@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <>
       <Header />
-      <section className="overflow-x-clip py-4 desktop:py-11">
+      <section className="overflow-x-clip pt-4 desktop:pt-11">
         <div className="container">
           <div className="d mx-auto max-w-[840px]">
             <h1 className="text-center text-3xl font-medium text-[#172026] desktop:text-6xl desktop:font-semibold">
@@ -35,7 +35,7 @@ export default function Hero() {
             </button>
           </div>
         </div>
-        <div className="bg-gradient-to-t from-amber-500 from-10% via-pink-500 via-30% to-white to-90% desktop:to-60%">
+        <div className="bg-gradient-to-t from-amber-500 from-10% via-pink-500 via-30% to-white to-90% pb-6 desktop:to-60%">
           <div className="">
             <Image
               src={heroImage}

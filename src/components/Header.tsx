@@ -20,7 +20,7 @@ export default function Header() {
         <div className="flex items-center gap-5 desktop:gap-14">
           <button className="hidden desktop:block">Open an Account</button>
           <button className="flex items-center gap-1">
-            <UserIcon className="h-8 w-8" />
+            <UserIcon className="mt-1 h-8 w-8" />
             <span className="hidden desktop:inline">Sign in</span>
           </button>
           <button>
