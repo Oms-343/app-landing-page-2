@@ -40,7 +40,7 @@ export default function Hero() {
             <Image
               src={heroImage}
               alt="hero-image"
-              className="-ml-4 desktop:-ml-0"
+              className="-ml-4 desktop:-ml-0 desktop:mr-1"
             />
             <div className="">
               <p className="mb-5 text-center text-white desktop:-mt-24">
